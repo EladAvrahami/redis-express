@@ -104,9 +104,16 @@ redis 127.0.0.1:6379> lrange friends 0 -1
 </pre>
 
 
-#### Sets: 
+#### Sets (unique values) : 
 <pre>
-
+redis 127.0.0.1:6379> SADD hobbies "weight lifting" //add new set called hobbies
+(integer) 1
+redis 127.0.0.1:6379> SMEMBERS hobbies //see all hobbies
+1) "weight lifting"
+redis 127.0.0.1:6379> SREM hobbies "weight lifting" //remove spesific
+(integer) 1
+redis 127.0.0.1:6379> SMEMBERS hobbies
+(empty list or set)
 
 
 </pre>
