@@ -117,8 +117,10 @@ redis 127.0.0.1:6379> SMEMBERS hobbies
 
 
 </pre>
+<!-- helpful linkes -->
 <!-- https://www.youtube.com/watch?v=jgpVdJB2sKQ -->
 <!-- https://www.youtube.com/watch?v=KUfufrwpBkM -->
+<!-- https://www.youtube.com/watch?v=AzQ6_DTcG6c -->
 <!--  -->
 
 
