@@ -159,11 +159,8 @@ app.get("/posts/:id",async(req,res)=>{
     return res.json(response)
 })
 
-</pre>
 
-
-### code ex2:
-<pre>
+//example 2 : 
 //update cache using expired- in order to get new data to cach after changes in the api/DB 
 app.get("/posts/:id",async(req,res)=>{
     const {id}=req.params;
@@ -184,6 +181,11 @@ app.listen(PORT,()=>{
 });*/
 
 
+</pre>
+
+
+### code ex2:
+<pre>
 
 
 /******************************** NEW CODE 2 ***************************************************/
