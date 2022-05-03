@@ -1,5 +1,5 @@
 # redis-express-
-basices comands+setUp +connction+api 
+Basices comands+setUp+connction+api 
 
 
 ### COMMAND LINE ACTIONS AFTER CONNECTION:</br>
