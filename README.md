@@ -3,7 +3,7 @@ Basices comands+setUp+connction+api
 
 
 ### COMMAND LINE ACTIONS AFTER CONNECTION:</br>
-#### redis general cli commands: 
+#### redis general cli commands (after starting redis server) : 
 <pre>
 redis 127.0.0.1:6379> PING
 PONG
